@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bm1EjhiGoDg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\dotnet app\\startrer\\starter.Application\\starter.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

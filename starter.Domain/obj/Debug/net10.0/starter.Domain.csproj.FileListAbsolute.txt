@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\bin\Debug\net10.0\starter.Domain.deps.json
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\bin\Debug\net10.0\starter.Domain.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\bin\Debug\net10.0\starter.Domain.pdb
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.sourcelink.json
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\refint\starter.Domain.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\starter.Domain.pdb
+C:\Users\user\Desktop\dotnet app\startrer\starter.Domain\obj\Debug\net10.0\ref\starter.Domain.dll

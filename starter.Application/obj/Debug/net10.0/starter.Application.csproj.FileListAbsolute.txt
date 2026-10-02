@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\bin\Debug\net10.0\starter.Application.deps.json
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\bin\Debug\net10.0\starter.Application.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\bin\Debug\net10.0\starter.Application.pdb
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\bin\Debug\net10.0\starter.Domain.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\bin\Debug\net10.0\starter.Domain.pdb
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.AssemblyInfo.cs
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.sourcelink.json
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter..8020F001.Up2Date
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\refint\starter.Application.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\starter.Application.pdb
+C:\Users\user\Desktop\dotnet app\startrer\starter.Application\obj\Debug\net10.0\ref\starter.Application.dll
