@@ -3,7 +3,7 @@ using starter.Domain.Entities;
 
 namespace starterBackend.Infrastructure.Data;
 
-public class starterBackendDbContext(DbContextOptions<starterBackendDbContext> options) : DbContext(options)
+public class starterBackendDbContext (DbContextOptions<starterBackendDbContext> options) : DbContext(options)
 {
     public DbSet<User> Users => Set<User>();
    

@@ -125,3 +125,14 @@ C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\refint\s
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\starter.Api.pdb
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\starter.Api.genruntimeconfig.cache
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\ref\starter.Api.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Asp.Versioning.Abstractions.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Asp.Versioning.Http.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Asp.Versioning.Mvc.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\MediatR.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\MediatR.Contracts.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\starter.Api.MvcApplicationPartsAssemblyInfo.cs
