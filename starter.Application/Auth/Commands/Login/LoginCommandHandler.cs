@@ -1,21 +1,22 @@
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using starter.Application.Auth.DTOs;
 using starter.Application.Common;
+using starter.Application.Common.Interfaces;
 using starter.Domain.Entities;
-using starter.Infrastructure.Data;
 
 namespace starter.Application.Auth.Commands.Login;
 
 public sealed class LoginCommandHandler
     : IRequestHandler<LoginCommand, Result<LoginResponse>>
 {
-    private readonly StarterDbContext _dbContext;
+    private readonly IApplicationDbContext _dbContext;
     private readonly IPasswordHasher<User> _passwordHasher;
 
     public LoginCommandHandler(
-        StarterDbContext dbContext,
+        IApplicationDbContext dbContext,
         IPasswordHasher<User> passwordHasher)
     {
         _dbContext = dbContext;

@@ -1,12 +1,14 @@
 using Asp.Versioning;
-using Microsoft.EntityFrameworkCore;
-using starterBackend.Infrastructure.Data;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using starter.Application.Auth.Commands.Signup;
 using starter.Application.Common.Behaviors;
+using starter.Application.Common.Interfaces;
 using starter.Domain.Entities;
 using starter.Infrastructure.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // --------------------------------------------------
@@ -19,11 +21,15 @@ builder.Services.AddControllers();
 // EF Core
 // --------------------------------------------------
 
-builder.Services.AddDbContext<starterBackendDbContext>(options =>
+builder.Services.AddDbContext<StarterDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("starterDatabase")
     )
 );
+
+builder.Services.AddScoped<IApplicationDbContext>(provider =>
+    provider.GetRequiredService<StarterDbContext>());
+
 // --------------------------------------------------
 // MediatR
 // --------------------------------------------------
@@ -54,6 +60,7 @@ builder.Services
         options.GroupNameFormat = "'v'VVV";
         options.SubstituteApiVersionInUrl = true;
     });
+
 // --------------------------------------------------
 // FluentValidation
 // --------------------------------------------------
@@ -74,6 +81,13 @@ builder.Services.AddScoped<
 // --------------------------------------------------
 
 var app = builder.Build();
+
+// Auto-apply pending database migrations on startup
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<StarterDbContext>();
+    dbContext.Database.Migrate();
+}
 
 // HTTP pipeline
 app.UseHttpsRedirection();

@@ -136,3 +136,4 @@ C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsof
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\user\Desktop\dotnet app\startrer\starter.Api\obj\Debug\net10.0\starter.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\dotnet app\startrer\starter.Api\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

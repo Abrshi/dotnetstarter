@@ -1,21 +1,22 @@
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using starter.Application.Auth.DTOs;
 using starter.Application.Common;
+using starter.Application.Common.Interfaces;
 using starter.Domain.Entities;
-using starter.Infrastructure.Data;
 
 namespace starter.Application.Auth.Commands.Signup;
 
 public sealed class SignupCommandHandler
     : IRequestHandler<SignupCommand, Result<SignupResponse>>
 {
-    private readonly StarterDbContext _dbContext;
+    private readonly IApplicationDbContext _dbContext;
     private readonly IPasswordHasher<User> _passwordHasher;
 
     public SignupCommandHandler(
-        StarterDbContext dbContext,
+        IApplicationDbContext dbContext,
         IPasswordHasher<User> passwordHasher)
     {
         _dbContext = dbContext;

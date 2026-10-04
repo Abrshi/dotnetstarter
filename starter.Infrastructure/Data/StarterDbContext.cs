@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using starter.Application.Common.Interfaces;
 using starter.Domain.Entities;
 
 namespace starter.Infrastructure.Data;
 
-public class StarterDbContext : DbContext
+public class StarterDbContext : DbContext, IApplicationDbContext
 {
     public StarterDbContext(DbContextOptions<StarterDbContext> options)
         : base(options)

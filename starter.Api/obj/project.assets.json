@@ -831,6 +831,7 @@
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "MediatR": "14.2.0",
+          "Microsoft.EntityFrameworkCore": "10.0.12",
           "starter.Domain": "1.0.0"
         },
         "compile": {
@@ -838,7 +839,10 @@
         },
         "runtime": {
           "bin/placeholder/starter.Application.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "starter.Domain/1.0.0": {
         "type": "project",
